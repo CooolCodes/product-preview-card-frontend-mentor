@@ -28,7 +28,8 @@ img {
 
 .product_image {
   background-image: url("https://res.cloudinary.com/dvydugv8v/image/upload/v1724922582/image-product-mobile_elau1k.jpg");
-
+  min-height: 20rem;
+  min-width: 20rem;
   height: 40%;
   background-size: 100% 100%;
 }
@@ -100,44 +101,45 @@ button:hover {
     flex-direction: row;
     margin-top: 10rem;
     height: 50vh;
-    width: 55%;
+    width: 30vw;
     box-shadow: 1px 3px 5px rgb(160, 155, 155);
   }
   .product_image {
     background-image: url("https://res.cloudinary.com/dvydugv8v/image/upload/v1724922582/image-product-desktop_v7b5yj.jpg");
-
+    min-height: 20rem;
+    min-width: 20rem;
     width: 50%;
     height: 100%;
   }
   .perfume {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
   .content {
     background-color: hsl(0, 0%, 100%);
     width: 50%;
   }
   .content h2 {
-    font-size: 4rem;
+    font-size: 2.4rem;
     font-weight: 700;
-    width: 85%;
-    margin-bottom: 3rem;
-    margin-top: 3rem;
-    line-height: 4rem;
+    width: 80%;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    line-height: 2.5rem;
   }
   .details {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     font-family: "Montserrat", sans-serif;
-    font-size: 1.6rem;
-    line-height: 2.6rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
   }
   .price {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
   .new {
-    font-size: 4rem;
+    font-size: 2.4rem;
   }
   .old {
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
   .cart {
     height: 16px;
