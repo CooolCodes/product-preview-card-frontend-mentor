@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+html {
+  font-size: 62.5%;
+}
+img {
+  width: 100%;
+  display: block;
+}
+.product-card {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 2rem;
+  height: 90vh;
+  width: 90%;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.product_image {
+  background-image: url("https://res.cloudinary.com/dvydugv8v/image/upload/v1724922582/image-product-mobile_elau1k.jpg");
+
+  height: 40%;
+  background-size: 100% 100%;
+}
+.perfume {
+  letter-spacing: 2px;
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+}
+button {
+  font: inherit;
+  font-size: 1.8rem;
+  width: 95%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(30, 38%, 92%);
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+button:hover {
+  background-color: hsl(212, 21%, 14%);
+  cursor: pointer;
+}
+.content {
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+}
+.content h2 {
+  font-family: "Fraunces", serif;
+  color: hsl(212, 21%, 14%);
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  line-height: 26px;
+}
+.details {
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+}
+.price {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.new {
+  font-size: 2.8rem;
+  color: hsl(158, 36%, 37%);
+  font-weight: bold;
+}
+.old {
+  font-size: 1.6rem;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+}
+.cart {
+  height: 16px;
+  width: 16px;
+}
+@media screen and (min-width: 768px) {
+  .product-card {
+    flex-direction: row;
+    margin-top: 10rem;
+    height: 50vh;
+    width: 55%;
+    box-shadow: 1px 3px 5px rgb(160, 155, 155);
+  }
+  .product_image {
+    background-image: url("https://res.cloudinary.com/dvydugv8v/image/upload/v1724922582/image-product-desktop_v7b5yj.jpg");
+
+    width: 50%;
+    height: 100%;
+  }
+  .perfume {
+    font-size: 1.8rem;
+  }
+  .content {
+    background-color: hsl(0, 0%, 100%);
+    width: 50%;
+  }
+  .content h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    width: 85%;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    line-height: 4rem;
+  }
+  .details {
+    margin-bottom: 3rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+  .price {
+    margin-bottom: 3rem;
+  }
+  .new {
+    font-size: 4rem;
+  }
+  .old {
+    font-size: 2rem;
+  }
+  .cart {
+    height: 16px;
+    width: 16px;
+  }
+}
